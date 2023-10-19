@@ -5,7 +5,14 @@ This repository contains the C++ implementation of embedded deformation (ED) [[1
 
 Several other cost functions are also defined, such as the minimization of model to model similarly as the one from Elastic Fusion (in the journal version).
 
+##environment
+window10 visual studio 2019.
 
+##dependence: ceres, eigen, polyscope, imgui, glm, utils, yaml-cpp, stb.
+I have already upload these dependences.
+
+##Run the code
+embedded_deformation.sln in folder msvc. double click .sln to run the project
 
 ## Illustration
 ![example](https://github.com/rFalque/embedded_deformation/raw/master/images/screenshot.png "example of embedded deformation")
