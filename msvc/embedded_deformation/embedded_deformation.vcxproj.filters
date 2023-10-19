@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="embedded_deformation">
+      <UniqueIdentifier>{8bf1ec9b-c63b-4942-9173-26a47d088371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libGraphCpp">
+      <UniqueIdentifier>{812afc15-4776-438f-8027-3fb0f677ed72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\embedded_deformation\costFunction.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\downsampling.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\embedDeform.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\farther_sampling.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\getMinMax.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\greedySearch.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\nanoflann.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\nanoflannWrapper.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\options.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\surface_association.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libGraphCpp\graph.hpp">
+      <Filter>libGraphCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libGraphCpp\graphOptions.hpp">
+      <Filter>libGraphCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libGraphCpp\plotGraph.hpp">
+      <Filter>libGraphCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libGraphCpp\polyscopeWrapper.hpp">
+      <Filter>libGraphCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libGraphCpp\readGraphOBJ.hpp">
+      <Filter>libGraphCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\libGraphCpp\writeGraphOBJ.hpp">
+      <Filter>libGraphCpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\embedded_deformation\costFunctionV2.hpp">
+      <Filter>embedded_deformation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\embedded_deformation\embedDeform.cpp">
+      <Filter>embedded_deformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\embedded_deformation\greedySearch.cpp">
+      <Filter>embedded_deformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\embedded_deformation_sample.cpp" />
+  </ItemGroup>
+</Project>
